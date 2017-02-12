@@ -9,7 +9,11 @@
 
 ---------------------------
 Website Fonts: Railway
-Website Colours: List colour hex codes here for reference
+Website Colours:
+/*#E1E6EA
+#DBDCE2
+#E2C3DC
+#BA93B2*/
 ----------------------------
 */
 
@@ -94,36 +98,23 @@ nav {
 header, footer  {
   padding: 1vh 2%;
   background-color: #BA93B2;
-
- }
- footer {
-text-align:center;
- }
+  text-align:center;
+}
 
 div footer {
    padding: 3vh;
  }
 
-section         { padding: 10vh 5%; }
+section{
+padding: 10vh 5%;
+position: relative;
+}
+
 
 .col,
 [class*=col-]   { padding: 2%; }
 
-/* PORTFOLIO Slider*/
-/*.owlCarousel{
-  min-height: 30vw;
-  position: relative;
-}*/
-/*
-.owlCarousel div{
-  position: absolute;
-  left: 30vw;
-  right: 30vw;
-  max-height: 100%;
-  height: 30vw;
-  width: 30vw;
-  background-size: cover;
-}*/
+
 
 .item img {
   max-width: 40vw;
@@ -140,6 +131,7 @@ nav a {
     text-decoration: none;
     padding: 1em;
     color: inherit;
+    text-align: center;
 }
 nav a:hover {
   color: #BA93B2; /* featured color */
@@ -147,24 +139,33 @@ nav a:hover {
   transition: all 0.5s;
 }
 
+img {
+  text-shadow: 1px 1px
+}
+
+header .fa {
+  font-size: 2em;
+}
 #scroll .fa {
   text-align:center;
   color:white;
-  margin-top: 10vh;
+}
+a.chevron{
+  position:absolute;
+  bottom: 0;
 }
 
-.social-nav .fa {
+footer .fa {
   font-size: 2.0rem;
 }
 
-
-
-footer nav .fa,
-.social-share nav .fa {
-  padding: 0 1em 0 0;
+/*.social-nav{
+  margin: 5vh 0;
+}*/
+.nav-menu {
+  margin: 5vh 0;
 }
-
-
+}
 .mob-nav a {
   display: block;
   padding: 0.5em;
@@ -187,8 +188,10 @@ footer nav .fa,
   color: white;
 }
 
-.button:hover {
+.button-inverted:hover {
   font-weight: semi-bold;
+  background-color: gray;
+
 }
 .relative{
   position:relative;
@@ -210,8 +213,9 @@ footer nav .fa,
 
 /*BACKGROUND IMAGES*/
 #intro-banner {
-  background-image: url("../images/whitedesk.jpg");
+  background-image: url("../images/mess.jpg");
   background-size: cover;
+  background-position: 0 -40px;
   min-height: 80vh;
 }
 
@@ -219,14 +223,17 @@ footer nav .fa,
   background-image: url("../images/me.jpg");
   background-size: cover;
   min-height: 55vh;
+  padding-top: 1vh;
 }
 #portfolio-banner {
-  background-image: url("../images/monitor.jpg");
+  background-color:#E2C3DC;
   background-size: contain;
   background-position: 31% 27%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 #register {
-  background-image: url("../images/glitter.jpg");
+  background-image: url("../images/paper.jpg");
   background-size: cover;
   min-height: 55vh;
 }
@@ -243,12 +250,38 @@ div.colorback {
 #do-banner{
   background-color: #E2C3DC;
   min-height: 55vh;
+  padding-top: 1vh;
+}
+
+/*ADD MY COMMENT HERE*/
+.spacebetween div {
+  margin: 0 1%;
+}
+
+.spacebetween h5 {
+  margin: 1% 0;
 }
 
 #process {
   background-image: url("../images/fuckyeah.jpg");
+  background-position: 0 -40px;
   background-size: cover;
   min-height: 55vh;
+}
+
+/* BLOG STYLES*/
+.feedpost h3{
+font-size: 2.0rem;
+line-height: 1.3;
+color: black;
+}
+.feedpost p {
+  color:black;
+}
+.feedpost h1{
+  color: black;
+  font-size: 2.0rem;
+  line-height: 1.3;
 }
 
 
