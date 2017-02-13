@@ -6,7 +6,10 @@ $(document).ready( function (){
       nav:true,
       items:1,
   })
-
+  $(".burger-button").click(function(){
+       $(".burger-button").toggleClass("active");
+       $(".burger-menu").slideToggle();
+     });
 })
 // //Step 1: create a variable to keep count of how many images are hidden
 // var numberOfHiddenPhotos = 0;
