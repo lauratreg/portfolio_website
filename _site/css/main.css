@@ -58,6 +58,13 @@ img {
   width:100%
 }
 
+/* Lists */
+ul      { list-style: circle inside; color:black;}
+ol      { list-style: decimal inside;}
+ol, ul  { padding-left: 0;
+          margin-top: 0; }
+li      { margin-bottom: 0.5rem; }
+
 /* ----- UNIVERSAL STYLES --------------------------- */
 
 /* Typography */
@@ -300,11 +307,20 @@ color: black;
 .feedpost h4{
   color:black;
 }
+.feedpost h5{
+  color:black;
+}
 .feedpost nav {
   color: black;
 }
 
-
+.feedpost a{
+  color:black;
+}
+.feedpost a:hover{
+  text-transform: uppercase;
+  color: #BA93B2;
+}
 
 /* Lists */
 ul      { list-style: circle inside; }
