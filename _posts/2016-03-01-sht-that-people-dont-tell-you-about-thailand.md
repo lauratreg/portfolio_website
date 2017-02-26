@@ -3,15 +3,14 @@ layout: post
 title: "Sh*t that people don't tell you about Thailand"
 meta-description:
 meta-keywords:
-image_path: images/biggie.jpg
+image_path:
 categories:
   - travel
-  - wine
 author: Laura Treganowan
 ---
 
 
-I've been here for just about a month and I thought I would share some important life lessons of my new Thai life... Enjoy!
+I've been here for just about a month and I thought I would share some important life lessons of my new Thai life… Enjoy!
 
 **Mosquitos are assholes.** I’ve always known this but Thailand makes it even easier to hate mosquitos. My legs might look like actual hamburgers by the time I get home. I’ve tried every bug spray in this country and my skin might just fall off from all the chemicals. So if anyone has some ideas send them my way!
 
@@ -25,15 +24,15 @@ Thai time = your time + at least 30 minutes. Needless to say that my bus ride fr
 
 While on the subject…always carry toilet paper…with you at all times. But never throw it in the toilet. Duh.
 
-&nbsp;"It is the little things that you live through each day that you can’t experience any other way."
+ "It is the little things that you live through each day that you can’t experience any other way."
 
-**I’ll never have to cook again.** No, I didn’t get a boyfriend that can cook. &nbsp;The Night Markets have everything you could ever want, already cooked, for cheaper than you could ever make it. I got eggs and fruit for breakfast tomorrow morning totaling a whopping 30baht or less than $1USD.....and I thought Chipotle was cheap.
+**I’ll never have to cook again.** No, I didn’t get a boyfriend that can cook.  The Night Markets have everything you could ever want, already cooked, for cheaper than you could ever make it. I got eggs and fruit for breakfast tomorrow morning totaling a whopping 30baht or less than $1USD…..and I thought Chipotle was cheap.
 
 Elephant pants actually make you look like an elephant. End of story.
 
 Attempting the Thai language makes life easier. Trying to be less of a "farrang" and learn Thai! Living in a smaller city with less English speakers has definitely sparked my interest to learn these symbols that somehow turn into words. I'm sure the coconut pancake lady will be happy to know when I've figured out that sip song is 30 (I think?). Wish me luck.
 
-**Appreciate the Thai honesty.** I was told today by a 14 year old that I shouldn't wear mascara because it makes me look tired....when really its just my natural circle of darkness underneath &nbsp;my unnaturally big eyes. Thanks a lot kid!
+**Appreciate the Thai honesty.** I was told today by a 14 year old that I shouldn't wear mascara because it makes me look tired….when really its just my natural circle of darkness underneath  my unnaturally big eyes. Thanks a lot kid!
 
 Embrace the **Mai Pen Rai** attitude of Thailand. It means no worries…what a wonderful phrase… Everything here will get done, eventually. Not worrying too much about details or really anything. Go about your day, be happy, and you will be just fine - most likely how I ended up living in a pink apartment with my mosquito and lizard friends.
 
