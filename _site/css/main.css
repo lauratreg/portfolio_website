@@ -220,6 +220,7 @@ footer .fa {
   top:60%;
   left: 70%;
 }
+.letterspace {letter-spacing: 2px;}
 #subtitle {
   font-size: 1.5rem;
   color: #BA93B2;
