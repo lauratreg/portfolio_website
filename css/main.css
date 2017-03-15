@@ -310,6 +310,7 @@ color: black;
 }
 .feedpost p {
   color:black;
+  text-decoration: none;
 }
 .feedpost h1{
   color: black;
@@ -328,11 +329,10 @@ color: black;
 
 .feedpost a{
   color:black;
+  text-transform: none;
+
 }
-.feedpost a:hover{
-  text-transform: uppercase;
-  color: #BA93B2;
-}
+
 
 /* Lists */
 ul      { list-style: circle inside; }
