@@ -10,7 +10,7 @@ title: Blog
       <div class="col-4_sm-12">
           <a href="{{post.url}}">
             <img src="{{post.image_path}}"> <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
-            <h4> {{post.title}} </h4>
+            <h5> {{post.title}} </h5>
             <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
             <p> {{post.excerpt | truncate:100 }} </p>
           </a>
