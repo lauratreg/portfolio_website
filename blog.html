@@ -3,11 +3,11 @@ layout: default
 title: Blog
 ---
 <section class="container feedpost">
-  <h4 class="centered"> Latest Posts </h4>
+  <h4 class="centered feedpost"> Latest Posts </h4>
 
-  <div class="grid blog-loop">
+  <div class="grid blog-loop feedpost">
     {% for post in site.posts limit:6 %}
-      <div class="col-4_sm-12">
+      <div class="col-4_sm-12 feedpost">
           <a href="{{post.url}}">
             <img src="{{post.image_path}}"> <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
             <h5> {{post.title}} </h5>
