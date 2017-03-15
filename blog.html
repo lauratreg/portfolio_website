@@ -2,19 +2,19 @@
 layout: default
 title: Blog
 ---
-Blog
-<div class="grid_col-3">
+<section class="container">
+  <h1 class="centered"> Latest Posts </h1>
 
-  {% for post in site.posts limit:3 %}
-<div class=" col-3feedpost">
-    <img src="{{post.image_path}}" />
-  <h1>{{post.title}}</h1>
-
-  <p>{{post.date | date_to_string }} | By {{post.author}}</p>
-
-  <p>{{post.excerpt | truncate:100 }}  </p>
-
-  <a class="button-inverted" href="{{post.url}}"> read more</a>
-</div>
-  {% endfor %}
-</div>
+  <div class="grid blog-loop">
+    {% for post in site.posts limit:6 %}
+      <div class="col-4_sm-12">
+          <a href="{{post.url}}">
+            <img src="{{post.image_path}}"> <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
+            <h3> {{post.title}} </h3>
+            <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
+            <p> {{post.excerpt | truncate:100 }} </p>
+          </a>
+        </div>
+      {% endfor %}
+  </div>
+</section>
