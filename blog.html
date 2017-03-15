@@ -3,10 +3,10 @@ layout: default
 title: Blog
 ---
 Blog
-<div class="grid">
+<div class="grid_col-3">
 
   {% for post in site.posts limit:3 %}
-<div class=" auto feedpost">
+<div class=" col-3feedpost">
     <img src="{{post.image_path}}" />
   <h1>{{post.title}}</h1>
 
