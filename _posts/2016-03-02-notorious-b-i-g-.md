@@ -3,8 +3,10 @@ layout: post
 title: Notorious B.I.G.
 meta-description:
 meta-keywords:
-image_path: images/biggie.jpg
-categories: [travel, wine]
+image_path: /images/DSCF2286.JPG
+categories:
+  - travel
+  - wine
 author: Laura Treganowan
 ---
 
