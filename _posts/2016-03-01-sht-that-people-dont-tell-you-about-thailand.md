@@ -3,7 +3,7 @@ layout: post
 title: "Sh*t that people don't tell you about Thailand"
 meta-description:
 meta-keywords:
-image_path:
+image_path: /images/DSC_0473.jpg
 categories:
   - travel
 author: Laura Treganowan
@@ -24,7 +24,7 @@ Thai time = your time + at least 30 minutes. Needless to say that my bus ride fr
 
 While on the subject…always carry toilet paper…with you at all times. But never throw it in the toilet. Duh.
 
-<blockquote> "It is the little things that you live through each day that you can’t experience any other way."</blockquote>
+> "It is the little things that you live through each day that you can’t experience any other way."
 
 **I’ll never have to cook again.** No, I didn’t get a boyfriend that can cook.  The Night Markets have everything you could ever want, already cooked, for cheaper than you could ever make it. I got eggs and fruit for breakfast tomorrow morning totaling a whopping 30baht or less than $1USD…..and I thought Chipotle was cheap.
 
