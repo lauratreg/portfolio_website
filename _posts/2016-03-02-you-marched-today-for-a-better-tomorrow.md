@@ -3,7 +3,7 @@ layout: post
 title: You Marched Today for a Better Tomorrow
 meta-description:
 meta-keywords:
-image_path: /uploads/IMG_1919.JPG
+image_path: /uploads/1484986378102.jpg
 categories:
   - travel
   - Life
@@ -17,9 +17,7 @@ While the Women’s March may have been sparked out of political angst and contr
 
 I hope that we can carry this humanity with us for ALL of our days. Not just this chosen one. The past year has proved to be a difficult time for America. America was divided in political parties and even further divided by labels. Hate has only been solved with more hate. Fear has only been solved with more fear (What’s up MLK)…regardless of what side of the fence you were on you were labeled as a criminal, a bigot, a misogynist, and the list goes on. I first hand witnessed those who claim to be promoters of equality screaming hateful abuse in bars, faceless slandering on social media, and shutting anyone down anyone and everyone down with an opposing opinion.
 
-Just because you voted for Hilary doesn’t automatically make you an angel – sorry babe. Just because you voted for Trump doesn’t mean you are a misogynistic, homophobe. Shocking, I know. We can alway
-
-s find people with our same views, but the real challenge dropping judgment and listening to a view unlike your own - something we have all forgotten how to do.
+Just because you voted for Hilary doesn’t automatically make you an angel – sorry babe. Just because you voted for Trump doesn’t mean you are a misogynistic, homophobe. Shocking, I know. We can always find people with our same views, but the real challenge dropping judgment and listening to a view unlike your own - something we have all forgotten how to do.
 
 Today, all of the madness stopped for a small moment as nearly 3 million people came together and marched in solidarity - peacefully and positively creating visible change.
 
@@ -32,8 +30,6 @@ Step up and be just that. Put a better foot forward. Drop the labels. Drop your 
 True dat.
 
 Today and everyday, I am proud to be an American.
-
-&nbsp;
 
 Your connection to the movement is important! Click [HERE](https://www.womensmarch.com/100/action2) for more Women's March information.&nbsp;
 
