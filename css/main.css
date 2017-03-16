@@ -142,7 +142,7 @@ button-inverted:hover{
 }
 
 img {
-  text-shadow: 1px 1px
+  text-shadow: 1px 1px;
 }
 
 header .fa {
@@ -311,6 +311,7 @@ color: black;
 .feedpost p {
   color:black;
   text-decoration: none;
+  text-transform: none;
 }
 .feedpost h1{
   color: black;
