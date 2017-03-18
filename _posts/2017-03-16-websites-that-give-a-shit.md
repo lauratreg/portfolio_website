@@ -3,7 +3,7 @@ layout: post
 title: Websites That Give a Shit
 meta-description:
 meta-keywords:
-image_path: /uploads/DSCF2282.JPG
+image_path:
 categories:
   - travel
   - Life
@@ -15,7 +15,7 @@ Monday afternoon in a closed cafe just outside the walls of Chiang Mai's Old Cit
 
 It was actually shocking to me that no one had picked up this project yet. This is city full of budding businesses and nomadic skill sets from teaching english online, to development, to dropshipping rocking chairs. We are so eager to move to a cheap Southeast Asian city to take advantage of our strong dollar and live like kings for a fraction of the price that we did in the states. It is important for me to take a step back sometimes and appreciate the community I am so fortunate to live in. As a "Digital Nomad"… (location independence. whatever.) I feel I have an obligation to contribute to the local community I now call home. There are so many ways to get involved - running free yoga classes in the park, painting a temple, volunteering at a school or animal sanctuary…or even just shopping at the local markets instead of big box stores. Whatever your skill set is, I know you can find some way to give a sh\*t. This is why I'm introducing my #websitesthatgiveashit project.
 
-#websitesthatgiveashit is a way to continually grow my portfolio but more importantly giving a face and a voice to badass non-profits. It is a promise to myself to stay humble and grounded...It is hours out of my life that will always be worth it. My first mission: Free Bird Cafe.
+#websitesthatgiveashit is a way to continually grow my portfolio but more importantly giving a face and a voice to badass non-profits. It is a promise to myself to stay humble and grounded…It is hours out of my life that will always be worth it. My first mission: Free Bird Cafe.
 
 ![](/uploads/versions/dscf2261---x----4896-3264x---.JPG)
 
