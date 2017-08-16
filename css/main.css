@@ -82,7 +82,7 @@ li  { font-size: 1.1rem; }
 /* Padding & Margin */
 
 section{
-/*padding: 5vh 5%;*/
+padding: 5vh 5%;
 }
 .col,
 [class*=col-]   { padding: 2%; }
