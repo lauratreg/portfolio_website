@@ -8,7 +8,7 @@
   - FORMS
 
 ---------------------------
-Website Fonts: Railway
+Website Fonts:
 Website Colors:
 ----------------------------
 
@@ -20,7 +20,7 @@ Website Colors:
 }
 
 body{
-  margin: 40px;
+  /*margin: 40px;*/
   box-sizing: border-box;
 }
 
