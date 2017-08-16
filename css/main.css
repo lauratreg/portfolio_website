@@ -66,9 +66,10 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
   color: rgb(60,60,65);
   margin-bottom: 1.1rem;
+  letter-spacing: 2px;
   }
 
-h1 { font-size: 3.0rem; line-height: 1.2; }
+h1 { font-size: 3.0rem; line-height: 1.2; padding: 2px;}
 h2 { font-size: 2.4rem; line-height: 1.25; }
 h3 { font-size: 2.0rem; line-height: 1.3; }
 h4 { font-size: 1.8rem; line-height: 1.35; }
@@ -199,7 +200,11 @@ header, footer  {
   background-position: 0 -40px;
   min-height: 80vh;
   padding: 5vh;
+}
 
+#test-pic {
+  background-image: url("../images/biggie.jpg");
+  background-size: cover;
 }
 
 /* BLOG STYLES*/
