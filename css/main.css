@@ -25,7 +25,7 @@ Website Colors:
 }
 
 body{
-  margin: 0;
+  margin: 20px;
   box-sizing: border-box;
 }
 
@@ -71,27 +71,25 @@ li      { margin-bottom: 0.5rem; }
 
 body {
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: black;
 }
 
 h1, h2, h3, {
   font-family: 'Archivo white', sans-serif;
-  color: white;
-
+  color: black;
   text-transform: uppercase;
 }
 
 h4, h5 {
-
     font-family: 'Quicksand', sans-serif;
 
 }
 p {
-  color: white;
+  color: black;
   font-size: 1.1rem; line-height: 1.5;
 }
 a {
-  color: white;
+  color: black;
 }
 h1 { font-size: 6.0rem; line-height: 1.2; font-family: 'Archivo white', sans-serif; text-transform: uppercase;text-shadow: 0 1px 5px #888888;}
 h2 { font-size: 5.5rem; line-height: 1.25; font-family: 'Archivo white', sans-serif; text-transform: uppercase;text-shadow: 0 1px 5px #888888; margin:0px;}
@@ -150,19 +148,9 @@ header .fa {
   font-size: 2em;
   display:inline-block;
 }
-#scroll .fa {
-  text-align:center;
-  color:white;
-}
-a.chevron{
-  position:absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX (-50%);
-}
+
 header, footer  {
   padding: 1vh 2%;
-  background-color: #BA93B2;
   text-align:center;
 }
 div footer {
@@ -222,12 +210,6 @@ footer .fa {
   left: 70%;
 }
 .letterspace {letter-spacing: 2px;}
-#subtitle {
-  font-size: 1.5rem;
-  color: #BA93B2;
-  margin: 0px;
-  padding: 0px;
-}
 
 
 .snip-layout .snip-header,
@@ -247,61 +229,7 @@ footer .fa {
 
 }
 
-#about-banner {
-  background-image: url("../images/me.jpg");/* fallback */
-  background-image: linear-gradient(-90deg, rgba(255,255,255,0), #828085),url("../images/me.jpg");
-    background-position: 50% 50%;
-  background-size: cover;
-  min-height: 55vh;
 
-}
-#portfolio-banner {
-  background-color:#E2C3DC;
-  background-size: contain;
-  background-position: 31% 27%;
-
-}
-#register {
-  background-image: url("../images/paper.jpg");
-  background-size: cover;
-  min-height: 55vh;
-
-}
-
-
-#do-banner{
-  background-color: #E2C3DC;
-  min-height: 40vh;
-
-
-}
-
-.darker-box{
-  background-color: rgba(186, 147, 178, .4);
-  padding:5%;
-
-}
-
-.box-columns .col {
-  padding: 1%;
-}
-
-
-/*Space between columns for do-banner*/
-
-.spacebetween h5 {
-  margin: 1% 0;
-}
-
-#process {
-
-  background-image: url("../images/fuckyeah.jpg"); /* fallback */
-  background-image: linear-gradient(90deg, rgba(255,255,255,0), #828085),url("../images/fuckyeah.jpg");
-  background-position: 50% 5%;
-  background-size: cover;
-  min-height: 55vh;
-  text-shadow: 0 1px 5px #888888;
-}
 
 /* BLOG STYLES*/
 .feedpost h3{
@@ -335,7 +263,6 @@ color: black;
 
 }
 
-
 /* Lists */
 ul      { list-style: circle inside; }
 ol      { list-style: decimal inside;}
@@ -343,34 +270,7 @@ ol, ul  { padding-left: 0;
           margin-top: 0; }
 li      { margin-bottom: 0.5rem; }
 
-/* ----- FORMS --------------------------- */
 
-input,
-textarea {
-  box-sizing: border-box;
-  border-style: solid;
-  border: 1px solid #E2C3DC;
-  padding: 0.8em;
-font-family: 'Quicksand', sans-serif;
-  font-size: 1em;
-  display: block;
-  width: 100%;
-  margin: 1em auto;
-  vertical-align: top;
-}
-textarea {
-  min-height: 7em;
-}
-input[type="submit"] {
-  width: auto;
-  display: block;
-  background-color: #BA93B2; /* featured color */
-  text-shadow: 0 1px 5px #888888;
-}
-
-form [class*=col-] {
-  padding: 1%;
-}
 div.colorback {
     background-color: rgba(136, 136, 136, 0.8);
   }
@@ -412,8 +312,6 @@ div.colorback {
     transform: rotateZ(270deg);
     border-color: rgba(0,0,0,0)
   }
-
-
 
   .burger-button.active .burger-bottom{
     position: absolute;
