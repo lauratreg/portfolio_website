@@ -212,8 +212,12 @@ text-decoration: none;
 .feedpost h4, h5, nav, a{
   color:rgb(60,60,65);
   text-transform: none;
+  text-decoration: none;
 }
 
+.feedpost a:hover {
+  color: #E7CFCD;
+}
 
 
 /* Lists */
