@@ -20,7 +20,7 @@ Website Colors:
 }
 
 body{
-  margin: 20px;
+  margin: 40px;
   box-sizing: border-box;
 }
 
@@ -112,12 +112,10 @@ position: relative;
 
 /* ----- HEADER & FOOTER --------------------------- */
 nav {
-  color: white;
-}
-
-nav  {
+  color: black;
   vertical-align: middle;
 }
+
 nav a {
     text-decoration: none;
     text-transform: uppercase;
@@ -126,6 +124,7 @@ nav a {
     text-align: center;
     display:inline-block;
 }
+
 nav a:hover {
   color: #DBDCE2;
   -webkit-transition: all 0.5s;
@@ -133,10 +132,6 @@ nav a:hover {
 }
 button-inverted:hover{
   color: #DBDCE2;
-}
-
-img {
-  text-shadow: 1px 1px;
 }
 
 header .fa {
@@ -148,9 +143,7 @@ header, footer  {
   padding: 1vh 2%;
   text-align:center;
 }
-div footer {
-   padding: 3vh;
- }
+
 footer .fa {
   font-size: 1.0rem;
 }
@@ -189,7 +182,7 @@ footer .fa {
   margin: 1em auto;
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .button:hover {
   font-weight: semi-bold;
@@ -207,13 +200,13 @@ footer .fa {
 .letterspace {letter-spacing: 2px;}
 
 
-.snip-layout .snip-header,
+/*.snip-layout .snip-header,
 .snip-layout .snip-footer {
   background-color:  #1abc9c;
 }
 .snip-layout .snip-footer__copyright {
   color: white;
-}
+}*/
 
 /*BACKGROUND IMAGES*/
 #intro-banner {
