@@ -24,12 +24,10 @@ body{
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-}
+img {max-width: 100%;}
+
 [class*=grid-][class*=-equalHeight]>[class*=col] {
   display:block;
-
 }
 
 /* ---- GENERAL HELPER CLASSES --------------------------- */
@@ -41,17 +39,11 @@ img {
 .centered-text, .center-text     { text-align: center; }
 .right-text     { text-align: right; }
 
-.left-pull    { padding: 5% 58% 5% 5%}
-.right-pull   {padding: 5% 5% 5% 45%}
-.centered-pull, .center-pull {padding:5% 25% 5% 25%}
-
 .no-padding { padding: 0; }
 
 .mob-show { display: none;}
 
-.full-width {
-  width:100%
-}
+.full-width { width:100%}
 
 /* Lists */
 ul      { list-style: circle inside; color:black;}
@@ -63,32 +55,25 @@ li      { margin-bottom: 0.5rem; }
 /* ----- UNIVERSAL STYLES --------------------------- */
 
 /* Typography */
-
 body {
     font-family: 'Quicksand', sans-serif;
     color: black;
 }
 
-h1, h2, h3, {
-  font-family: 'Archivo white', sans-serif;
+h1, h2, h3, h4, h5 {
+  font-family: 'Quicksand', sans-serif;
   color: black;
-  text-transform: uppercase;
-}
+  }
 
-h4, h5 {
-    font-family: 'Quicksand', sans-serif;
-
-}
 p {
   color: black;
   font-size: 1.1rem; line-height: 1.5;
 }
-a {
-  color: black;
-}
-h1 { font-size: 6.0rem; line-height: 1.2; font-family: 'Archivo white', sans-serif; text-transform: uppercase;text-shadow: 0 1px 5px #888888;}
-h2 { font-size: 5.5rem; line-height: 1.25; font-family: 'Archivo white', sans-serif; text-transform: uppercase;text-shadow: 0 1px 5px #888888; margin:0px;}
-h3 { font-size: 3.5rem; line-height: 1.3; font-family: 'Archivo white', sans-serif; text-transform: uppercase;text-shadow: 0 1px 5px #888888; margin:0px;}
+a {color: black;}
+
+h1 { font-size: 6.0rem; line-height: 1.2;}
+h2 { font-size: 5.5rem; line-height: 1.25;}
+h3 { font-size: 3.5rem; line-height: 1.3;}
 h4 { font-size: 2.5rem; line-height: 1.35;}
 h5 { font-size: 2.0rem; line-height: 1.35; margin:0.5rem;}
 
@@ -97,8 +82,7 @@ h5 { font-size: 2.0rem; line-height: 1.35; margin:0.5rem;}
 
 /* Padding & Margin */
 section{
-padding: 5vh 5%;
-position: relative;
+/*padding: 5vh 5%;*/
 }
 .col,
 [class*=col-]   { padding: 2%; }
@@ -126,12 +110,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #DBDCE2;
+  color: #E7CFCD;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 button-inverted:hover{
-  color: #DBDCE2;
+  color: #E7CFCD;
 }
 
 header .fa {
@@ -172,7 +156,7 @@ header, footer  {
  button,
 .button,
 .button-inverted {
-  background-color: #BA93B2; /* featured color */
+  background-color: #grey;
   border: none;
   border-radius: 5px;
   padding: 0.5em 3em;
@@ -183,7 +167,8 @@ header, footer  {
 }
 .button:hover {
   font-weight: semi-bold;
-  background-color: gray;
+  background-color: #E7CFCD;
+
 
 }
 .relative{
@@ -197,14 +182,6 @@ header, footer  {
 .letterspace {letter-spacing: 2px;}
 
 
-/*.snip-layout .snip-header,
-.snip-layout .snip-footer {
-  background-color:  #1abc9c;
-}
-.snip-layout .snip-footer__copyright {
-  color: white;
-}*/
-
 /*BACKGROUND IMAGES*/
 #intro-banner {
   background-image: url("../images/mess.jpg");
@@ -214,13 +191,13 @@ header, footer  {
 
 }
 
-
-
 /* BLOG STYLES*/
 .feedpost h3{
 font-size: 2.0rem;
 line-height: 1.3;
 color: black;
+text-transform: none;
+text-decoration: none;
 }
 .feedpost p {
   color:black;
@@ -232,21 +209,12 @@ color: black;
   font-size: 2.0rem;
   line-height: 1.3;
 }
-.feedpost h4{
-  color:black;
-}
-.feedpost h5{
-  color:black;
-}
-.feedpost nav {
-  color: black;
-}
-
-.feedpost a{
+.feedpost h4, h5, nav, a{
   color:black;
   text-transform: none;
-
 }
+
+
 
 /* Lists */
 ul      { list-style: circle inside; }
