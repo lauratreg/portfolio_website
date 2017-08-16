@@ -81,9 +81,11 @@ li  { font-size: 1.1rem; }
 .fa {font-size: 2.0rem;}
 
 .tagline {
-  font-size: .08rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1rem;
   letter-spacing: 1px;
   color: #E7CFCD;
+  padding: 0vh;
 }
 
 /* Padding & Margin */
