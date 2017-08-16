@@ -84,7 +84,7 @@ li  { font-size: 1.1rem; }
   font-family: 'Shadows Into Light', cursive;
   font-size: 1rem;
   letter-spacing: 1px;
-  color: #E7CFCD;
+  color: #FBB7C0;
   padding: 0vh;
 }
 
@@ -120,12 +120,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #E7CFCD;
+  color: #FBB7C0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 button-inverted:hover{
-  color: #E7CFCD;
+  color: #FBB7C0;
 }
 
 header .fa {
@@ -177,7 +177,7 @@ header, footer  {
 }
 .button:hover {
   font-weight: semi-bold;
-  background-color: #E7CFCD;
+  background-color: #FBB7C0;
 
 
 }
@@ -227,7 +227,7 @@ text-decoration: none;
 }
 
 .feedpost a:hover {
-  color: #E7CFCD;
+  color: #FBB7C0;
 }
 
 
