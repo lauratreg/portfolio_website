@@ -86,7 +86,7 @@ li  { font-size: 1.1rem; }
   font-size: 1rem;
   letter-spacing: 1px;
   color: #FBB7C0;
-  padding: 0vh;
+  padding: 0;
 }
 
 /* Padding & Margin */
@@ -139,6 +139,9 @@ header, footer  {
   text-align:center;
 }
 
+hr {
+  1px solid #FBB7C0;
+}
 .nav-menu .fa{
   font-size: 2.0rem;
 }
@@ -203,7 +206,7 @@ header, footer  {
 #test-pic {
   background-image: url("../images/biggie.jpg");
   background-size: cover;
-  min-height: 20vh;
+  min-height: 30vh;
   padding: 1vh;
 }
 
