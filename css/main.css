@@ -20,7 +20,6 @@ Website Colors:
 }
 
 body{
-  /*margin: 40px;*/
   box-sizing: border-box;
 }
 
@@ -188,6 +187,7 @@ header, footer  {
   background-size: cover;
   background-position: 0 -40px;
   min-height: 80vh;
+  padding: 5vh;
 
 }
 
