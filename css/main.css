@@ -80,6 +80,11 @@ li  { font-size: 1.1rem; }
 
 .fa {font-size: 2.0rem;}
 
+.tagline {
+  font-size: .08rem;
+  letter-spacing: 1px;
+  color: #E7CFCD;
+}
 
 /* Padding & Margin */
 
@@ -105,6 +110,7 @@ nav {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
     padding: 1em;
     color: inherit;
     text-align: center;
