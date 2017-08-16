@@ -139,6 +139,10 @@ header, footer  {
   text-align:center;
 }
 
+footer {
+  background-color: #f5f5f5;
+}
+
 hr {
   color: 1px solid #FBB7C0;
 }
