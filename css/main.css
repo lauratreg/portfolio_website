@@ -70,7 +70,7 @@ li      { margin-bottom: 0.5rem; }
 /* Typography */
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
 }
 
@@ -83,7 +83,7 @@ h1, h2, h3, {
 
 h4, h5 {
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 
 }
 p {
@@ -127,6 +127,7 @@ nav  {
 }
 nav a {
     text-decoration: none;
+    text-transform: uppercase;
     padding: 1em;
     color: inherit;
     text-align: center;
@@ -350,7 +351,7 @@ textarea {
   border-style: solid;
   border: 1px solid #E2C3DC;
   padding: 0.8em;
-  font-family: 'Raleway', sans-serif;
+font-family: 'Quicksand', sans-serif;
   font-size: 1em;
   display: block;
   width: 100%;

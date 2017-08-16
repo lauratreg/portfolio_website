@@ -1,141 +1,47 @@
 ---
 layout: default
 title: Laura Treganowan
-meta-description: Freelance Web Development
+meta-description: Laura Treganowan
 featured-image_path: images/whitedesk.jpg
 ---
 
 
-  <!-- FIRST: BANNER SECTION ---->
-  <section id="intro-banner" class="center-text">
+  <!-- FIRST: PICTURE SECTION ---->
+  <section id="intro-banner" class="center-text"></section>
 
-    <div>
-      <h1 class="relative"> Laura Treganowan</h1>
-
-  </div>
-  <a id="scroll" class="scroll-to centered chevron" href="#about-banner"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-</section>
-
-<!-- SECOND: ABOUT SECTION ---->
+<!-- SECOND: INTRO SECTION ---->
   <section id="about-banner" class="center-text">
 
-    <div class="left-pull">
-    <h2 class="left-text"> This is my <span class="right-pull">Hustle</span></h2>
-      <p class="left-text">
-        What's up! Welcome to my life. I am a girl that is constantly on the move. I have been in the fitness scene in San Francisco for about 5 years before I packed my bags and moved across the world almost a year ago. Now I am sharing my love for fitness in Bangkok, Thailand as the fitness scene is exploding in Asia. Sometimes I am teaching a indoor cycling class, sometimes I am coding, and sometimes I am collecting more stamps in my passport.
-        <br />
-        <br />
-        To take an inside look into my life, check out my <a href="/blog.html">blog.</a>.
-      </p>
-      </div>
-
-
-    <a id="scroll" class="scroll-to centered chevron"  href="#do-banner"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-
+  <div>
+    <h2>Hi, I'm Laura</h2>
+  </div>
 
   </section>
 
-<!-- THIRD: WHAT I DO SECTION ---->
-<section class="center-text" id="do-banner">
-  <div>
-    <h3>Side Hustle</h3>
-    <p>
-      Party in the front! Early this year I learned how to code in Bali...now I consider myself front-end developer that builds hand crafted websites for individuals and small businesses for fun! I use my fresh perspective, creative eye, and love for development to ensure that your website reflects your kickass brand. I am continuously learning and improving my skills to build my portfolio. To check out some of my recent work check out my <a href="/portfolio">portfolio.</a> If you have a site that you woud like updating send me a message and talk nerdy to me.
-    </p>
-  </div>
+ <!-- THIRD: BLOG SECTION -->
+    <section class="container feedpost">
+      <h4 class="centered feedpost"> Latest Posts </h4>
 
-
-    <!-- <div>
-      <h3>CHECK IT</h3>
-    </div>
-
-    <div class="grid_sm-2_xs-1 box-columns">
-        <div class="col">
-          <div class="darker-box">
-            <i class="fa fa-code" aria-hidden="true"></i>
-            <h5>Quality <br> Code</h5>
-            <p>
-            I use the most up to date technology to build including HTML5, CSS3, JavaScript, JQuery and always learning more!</p>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="darker-box">
-          <i class="fa fa-mobile" aria-hidden="true"></i>
-          <h5>Responsive <br> Design </h5>
-          <p>
-          Your brand new responsive website will look great on all screen sizes.Even the Samsung that blows up.</p>
-        </div>
-        </div>
-
-
-        <div class="col">
-          <div class="darker-box">
-          <i class="fa fa-users" aria-hidden="true"></i>
-          <h5>User <br> Friendly</h5>
-          <p>
-          Not only will your site be clean and easy for the user to interact with. Your site is easily editable through my CMS CloudCannon. </p>
-          </div>
-        </div>
-
-      <div class="col">
-        <div class="darker-box">
-        <i class="fa fa-line-chart" aria-hidden="true"></i>
-          <h5>SEO <br> Star Power</h5>
-          <p>
-          Keywords, Google Analytics, Oh my! I will optimize your website so you will get a little boost to pop up on a Google search.  </p>
-        </div>
+      <div class="grid blog-loop feedpost">
+        {% for post in site.posts limit:3 %}
+          <div class="col-4_sm-12 feedpost">
+              <a href="{{post.url}}">
+                <img src="{{post.image_path}}"> <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
+                <h5> {{post.title}} </h5>
+                <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
+                <p> {{post.excerpt | truncate:100 }} </p>
+              </a>
+            </div>
+          {% endfor %}
       </div>
+    </section>
 
-    </div>
-  </div> -->
-  <a id="scroll" class="scroll-to centered chevron" href="#process"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+
+
+<!-- THIS IS THE PROJECTS SECTION ---->
+<section id="process">
+
 </section>
 
-
-<!-- THIS IS THE PROCESS SECTION ---->
-<section class="right-pull colorback" id="process">
-  <div>
-      <h2>Give Back</h2>
-  </div>
-
-  <div>
-    <p>
-      Between the various day to day activities I get myself into my time to volunteer is limited. I solve that problem my building websites for non-profit foundations. I present you my web-development series I call #websitesthatgiveashit. I am currently in Thailand, and I have chosen the Free Bird Cafe to donate my web development services. An incredible organization with a fearless learder ensuring the health and education to Burmese Refugees in Thailand. A website will give a platform to spread the mission, expand their reach, and fufill their vision. If you are curious to know more now, check out my <a href="http://lauratreganowan.com/travel/life/2017/03/16/websites-that-give-a-shit.html">Blog Post</a> about the project.
-<br />
-<br />
-      If you know of a non-profit that could use a free website, please contact me.
-     </p>
-
-  </div>
-    <a id="scroll" class="scroll-to centered chevron" href="#portfolio-banner"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-</section>
-
-
-<!-- THIS IS THE CONTACT -->
-<section class="centered centered-text colorback" id="do-banner">
-
-  <div id="contact">
-    <div class="centered">
-      <h3>Contact</h3>
-      <p class="letterspace">
-        Laura Treganowan<br /> Bangkok, Thailand
-      </p>
-
-      <div>
-        <p>
-          treganowanl@gmail.com
-        </p>
-      </div>
-
-      <nav class="social-nav centered">
-        <a target="blank" href= "https://www.linkedin.com/in/laura-treganowan-8659038a/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a target="blank" href="https://www.facebook.com/laura.treganowan"> <i class="fa fa-facebook" aria-hidden="true"></i></i> </a>
-        <a target="blank" href="https://www.instagram.com/lauratregz/"> <i class="fa fa-instagram"> </i></a>
-      </nav>
-    </div>
-  <a id="scroll" class="scroll-to centered chevron" href="header"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
-</section>
 
 {% include instagram.html %}
