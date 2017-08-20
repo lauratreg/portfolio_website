@@ -197,6 +197,11 @@ hr {
 }
 .letterspace {letter-spacing: 2px;}
 
+.featured {
+  background-color: grey;
+  color: white;
+}
+
 
 /*BACKGROUND IMAGES*/
 #intro-banner {
@@ -212,6 +217,14 @@ hr {
   background-size: cover;
   min-height: 30vh;
   padding: 1vh;
+}
+
+.box-img { /* This can be used for any col or div that you want filled with a background image. */
+  background-color: grey; /* this is a fallback incase the image doesn't load */
+  background-image: url('/images/fuckyeah.jpg'); /* if you are adding a unique image to every one you can remove this */
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
 }
 
 /* BLOG STYLES*/
