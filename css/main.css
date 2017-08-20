@@ -198,8 +198,12 @@ hr {
 .letterspace {letter-spacing: 2px;}
 
 .featured {
-  background-color: grey;
+  background-color: #f5f5f5;
   color: white;
+}
+
+.quote {
+  padding: 10vh;
 }
 
 
