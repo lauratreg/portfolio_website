@@ -25,7 +25,9 @@ featured-image_path: images/whitedesk.jpg
 
       In ut massa at turpis ullamcorper scelerisque. In sed enim volutpat, tincidunt ante ac, dictum tellus. Donec imperdiet sagittis neque, id volutpat ipsum aliquam sit amet. Praesent sit amet consequat enim. Fusce felis dolor, faucibus eu quam ac, ullamcorper rhoncus ipsum. Pellentesque iaculis tincidunt quam, vel vehicula nulla elementum vitae. Nulla porta dignissim nibh, id auctor lectus varius ut. Duis et eleifend lacus, id lacinia tellus. Nam vehicula lectus hendrerit bibendum fermentum.
       <br />
-      <a target="blank"class="button center-text" href="/portfolio">Full Bio</a>
+
+      <a class="button center-text" href="../pdf/funresume.pdf">Resume</a>
+      <a target="blank"class="button center-text" href="/portfolio">Portfolio</a>
     </p>
     <br />
   </section>
@@ -67,7 +69,7 @@ featured-image_path: images/whitedesk.jpg
       Fusce congue ultrices mauris vitae euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus urna non imperdiet scelerisque. Sed fermentum massa a enim dictum, ac pharetra nisi egestas. Nam et eros ut quam auctor sagittis a cursus ex. In fringilla libero nisl, id bibendum est auctor sed. Nulla pharetra imperdiet cursus. Mauris suscipit malesuada elit in dignissim. Morbi aliquet augue ut est finibus molestie.
 </div> -->
 <div class="container feedpost col-6">
-<h2 class="centered"> Latest Posts </h2>
+<h2 class="centered"> Latest Post </h2>
 <div class="grid blog-loop feedpost">
   {% for post in site.posts limit:1 %}
     <div class="feedpost">
@@ -77,6 +79,7 @@ featured-image_path: images/whitedesk.jpg
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
           <p> {{post.excerpt | truncate:100 }} </p>
         </a>
+        <a class="button" href="/blog.html">More Posts</a>
       </div>
     {% endfor %}
 </div>
