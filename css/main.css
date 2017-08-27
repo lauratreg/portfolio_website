@@ -140,7 +140,7 @@ header, footer  {
 }
 
 footer {
-  background-color: #f5f5f5;
+  background-color: rgb(60,60,65);
 }
 
 hr {
@@ -198,8 +198,8 @@ hr {
 .letterspace {letter-spacing: 2px;}
 
 .featured {
-  background-color: #f5f5f5;
-  color: rgb(60,60,65);
+  background-color: rgb(60,60,65);
+  color: white;
   text-align: center;
 }
 
