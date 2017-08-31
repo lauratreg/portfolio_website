@@ -231,21 +231,24 @@ hr {
 #erinwright {
   background-image: url("../images/erinwright.png");
   background-size: cover;
-  min-height: 30vh;
+  min-height: 10vh;
+  min-width: 20vw;
   padding: 1vh;
 }
 
 #lineabody {
   background-image: url("../images/lineabody.png");
   background-size: cover;
-  min-height: 30vh;
+  min-height: 10vh;
+  min-width: 20vw;
   padding: 1vh;
 }
 
 #freebird {
   background-image: url("../images/freebirdcafe.png");
   background-size: cover;
-  min-height: 30vh;
+  min-height: 10vh;
+  min-width: 20vw;
   padding: 1vh;
 }
 
