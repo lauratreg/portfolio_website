@@ -85,7 +85,7 @@ li  { font-size: 1.1rem; }
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
-  color: rgb(219,84,97);
+  color: rgb(255,105,180);
   padding: 0;
 }
 
@@ -121,12 +121,12 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(219,84,97);
+  color: rgb(255,105,180);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 button:hover{
-  color: rgb(219,84,97);
+  color: rgb(255,105,180);
 }
 
 header .fa {
@@ -145,7 +145,7 @@ footer {
 }
 
 hr {
-  color: 3px dotted rgb(219,84,97);
+  color: 3px dotted rgb(255,105,180);
 }
 .nav-menu .fa{
   font-size: 2.0rem;
@@ -231,32 +231,32 @@ hr {
 #erinwright {
   background-image: url("../images/erinwright.jpg");
   background-size: cover;
-  min-height: 10vh;
+  min-height: 40vh;
   min-width: 20vw;
-  padding: 1vh;
+
 }
 
 #lineabody {
   background-image: url("../images/lineabody.jpg");
   background-size: cover;
-  min-height: 10vh;
+  min-height: 40vh;
   min-width: 20vw;
-  padding: 1vh;
+
 }
 
 #freebird {
   background-image: url("../images/freebird.jpg");
   background-size: cover;
-  min-height: 10vh;
+  min-height: 40vh;
   min-width: 20vw;
-  padding: 1vh;
+
 }
 #balmbeats {
   background-image: url("../images/balmbeats.jpg");
   background-size: cover;
-  min-height: 10vh;
+  min-height: 40vh;
   min-width: 20vw;
-  padding: 1vh;
+
 }
 .about{
   max-width: 40vw;
@@ -300,7 +300,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .feedpost a:hover {
-  color: rgb(219,84,97);
+  color: rgb(255,105,180);
 }
 
 
