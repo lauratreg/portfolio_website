@@ -60,7 +60,7 @@ featured-image_path: images/whitedesk.jpg
     </section> -->
 
 <!-- THIS IS THE  RANDOM PROJECTS SECTION ---->
-<section class="grid-centered">
+
 <!-- <div class="col-6">
   <h2>Write Something Here</h2>
   <p>
@@ -68,6 +68,9 @@ featured-image_path: images/whitedesk.jpg
 
       Fusce congue ultrices mauris vitae euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus urna non imperdiet scelerisque. Sed fermentum massa a enim dictum, ac pharetra nisi egestas. Nam et eros ut quam auctor sagittis a cursus ex. In fringilla libero nisl, id bibendum est auctor sed. Nulla pharetra imperdiet cursus. Mauris suscipit malesuada elit in dignissim. Morbi aliquet augue ut est finibus molestie.
 </div> -->
+
+<!-- RANDOMNESS -->
+<section class="grid-centered">
 <div class="container feedpost col-6">
 <h2 class="centered"> Latest Post </h2>
 <div class="grid blog-loop feedpost">
@@ -77,9 +80,9 @@ featured-image_path: images/whitedesk.jpg
           <img src="{{post.image_path}}">
           <h5> {{post.title}} </h5>
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
-          <p> {{post.excerpt | truncate:100 }} </p>
+          <p> {{post.excerpt | truncate:150 }} </p>
         </a>
-        <a class="button" href="/blog.html">More Random Ramblings</a>
+        <a class="button" href="/blog.html">More from the blog</a>
       </div>
     {% endfor %}
 </div>

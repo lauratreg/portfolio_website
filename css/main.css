@@ -229,7 +229,7 @@ hr {
 }
 
 #erinwright {
-  background-image: url("../images/erinwright.png");
+  background-image: url("../images/erinwright.jpg");
   background-size: cover;
   min-height: 10vh;
   min-width: 20vw;
@@ -237,7 +237,7 @@ hr {
 }
 
 #lineabody {
-  background-image: url("../images/lineabody.png");
+  background-image: url("../images/lineabody.jpg");
   background-size: cover;
   min-height: 10vh;
   min-width: 20vw;
@@ -245,13 +245,19 @@ hr {
 }
 
 #freebird {
-  background-image: url("../images/freebirdcafe.png");
+  background-image: url("../images/freebird.jpg");
   background-size: cover;
   min-height: 10vh;
   min-width: 20vw;
   padding: 1vh;
 }
-
+#balmbeats {
+  background-image: url("../images/balmbeats.jpg");
+  background-size: cover;
+  min-height: 10vh;
+  min-width: 20vw;
+  padding: 1vh;
+}
 .about{
   max-width: 40vw;
   max-height: 40vh;
