@@ -74,10 +74,10 @@ featured-image_path: images/whitedesk.jpg
 <div class="container feedpost col-6">
 <h2 class="centered"> Latest Post </h2>
 <div class="grid blog-loop feedpost">
-  {% for post in site.posts limit:1 %}
+  {% for post in site.posts limit:2 %}
     <div class="feedpost">
         <a href="{{post.url}}">
-          <img src="{{post.image_path}}">
+        
           <h5> {{post.title}} </h5>
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
           <p> {{post.excerpt | truncate:150 }} </p>
