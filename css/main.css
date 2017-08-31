@@ -204,10 +204,12 @@ hr {
   text-align: center;
 }
 
-.fa .featured{
+
+
+.featured .fa{
   color:white;
 }
-h2.featured {
+.featured h2 {
   color:white;
 }
 .quote {
@@ -227,23 +229,23 @@ h2.featured {
 }
 
 #erinwright {
-  background-image: url("../images/erinwright.jpg");
+  background-image: url("../images/erinwright.png");
   background-size: cover;
-  /*min-height: 30vh;*/
+  min-height: 30vh;
   padding: 1vh;
 }
 
 #lineabody {
-  background-image: url("../images/lineabody.jpg");
+  background-image: url("../images/lineabody.png");
   background-size: cover;
-  /*min-height: 30vh;*/
+  min-height: 30vh;
   padding: 1vh;
 }
 
 #freebird {
-  background-image: url("../images/freebirdcafe.jpg");
+  background-image: url("../images/freebirdcafe.png");
   background-size: cover;
-  /*min-height: 30vh;*/
+  min-height: 30vh;
   padding: 1vh;
 }
 
