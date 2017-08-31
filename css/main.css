@@ -226,10 +226,24 @@ h2.featured {
   padding: 5vh;
 }
 
-#test-pic {
-  background-image: url("../images/biggie.jpg");
+#erinwright {
+  background-image: url("../images/erinwright.jpg");
   background-size: cover;
-  min-height: 30vh;
+  /*min-height: 30vh;*/
+  padding: 1vh;
+}
+
+#lineabody {
+  background-image: url("../images/lineabody.jpg");
+  background-size: cover;
+  /*min-height: 30vh;*/
+  padding: 1vh;
+}
+
+#freebird {
+  background-image: url("../images/freebirdcafe.jpg");
+  background-size: cover;
+  /*min-height: 30vh;*/
   padding: 1vh;
 }
 
