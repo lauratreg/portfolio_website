@@ -231,31 +231,31 @@ hr {
 #erinwright {
   background-image: url("../images/erinwright.jpg");
   background-size: cover;
-  min-height: 40vh;
-  min-width: 20vw;
+  /*min-height: 40vh;
+  min-width: 20vw;*/
 
 }
 
 #lineabody {
   background-image: url("../images/lineabody.jpg");
   background-size: cover;
-  min-height: 40vh;
-  min-width: 20vw;
+  /*min-height: 40vh;
+  min-width: 20vw;*/
 
 }
 
 #freebird {
   background-image: url("../images/freebird.jpg");
   background-size: cover;
-  min-height: 40vh;
-  min-width: 20vw;
+  /*min-height: 40vh;
+  min-width: 20vw;*/
 
 }
 #balmbeats {
   background-image: url("../images/balmbeats.jpg");
   background-size: cover;
-  min-height: 40vh;
-  min-width: 20vw;
+  /*min-height: 40vh;
+  min-width: 20vw;*/
 
 }
 .about{
