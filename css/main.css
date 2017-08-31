@@ -252,6 +252,12 @@ hr {
   padding: 1vh;
 }
 
+.about{
+  max-width: 40vw;
+  max-height: 40vh;
+  display: block;
+}
+
 .box-img { /* This can be used for any col or div that you want filled with a background image. */
   background-color: grey; /* this is a fallback incase the image doesn't load */
   background-image: url('/images/fuckyeah.jpg'); /* if you are adding a unique image to every one you can remove this */
