@@ -72,20 +72,21 @@ featured-image_path: images/whitedesk.jpg
 <!-- RANDOMNESS -->
 <section class="grid-centered">
 <div class="container feedpost col-6">
-<h2 class="centered"> Latest Post </h2>
+<h2 class="centered"> Latest Posts </h2>
 <div class="grid blog-loop feedpost">
   {% for post in site.posts limit:2 %}
     <div class="feedpost">
         <a href="{{post.url}}">
-        
+
           <h5> {{post.title}} </h5>
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
-          <p> {{post.excerpt | truncate:150 }} </p>
+          <p> {{post.excerpt | truncate:200 }} </p>
         </a>
-        <a class="button" href="/blog.html">More from the blog</a>
+
       </div>
     {% endfor %}
 </div>
+<a class="button" href="/blog.html">More from the blog</a>
 </div>
 
 <div class="col-6 centered">
