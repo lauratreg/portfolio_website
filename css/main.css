@@ -63,15 +63,15 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Shadows Into Light', cursive;
+h2, h3, h4, h5{
   font-weight: bold;
+  text-transform: uppercase;
   color: rgb(60,60,65);
   margin-bottom: 1.1rem;
   letter-spacing: 2px;
   }
 
-h1 { font-size: 3.0rem; line-height: 1.2; padding: 2px;}
+h1 { font-size: 3.0rem; line-height: 1.2; padding: 2px; font-family: 'Over the Rainbow', cursive;}
 h2 { font-size: 2.4rem; line-height: 1.25; }
 h3 { font-size: 2.0rem; line-height: 1.3; }
 h4 { font-size: 1.8rem; line-height: 1.35; }
@@ -197,7 +197,7 @@ hr {
 .letterspace {letter-spacing: 2px;}
 
 .featured {
-  background-color: rgb(60,60,65);
+  background-color: #353536;
   color: white;
   text-align: center;
 }
