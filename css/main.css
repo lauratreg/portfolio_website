@@ -57,7 +57,7 @@ li      { margin-bottom: 0.5rem; }
 
 /* Typography */
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(60,60,65);
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
@@ -142,9 +142,6 @@ header, footer  {
   background-color: white;
 }
 
-.home {
-  color: rgb(255,105,180);
-}
 
 hr {
   color: 3px dotted rgb(255,105,180);
@@ -218,6 +215,7 @@ hr {
   padding: 5vh;
   font-size: 3.0rem;
   letter-spacing: 1px;
+  font-family: 'Shadows Into Light Two', cursive;
 }
 .underline {
   border-bottom: 1px dotted rgb(255,105,180);
