@@ -150,7 +150,7 @@ header{
 
 }
 hr {
-  border: 3px double #4DA1A9;
+  border: 3px dotted #4DA1A9;
 }
 .nav-menu .fa{
   font-size: 2.0rem;
@@ -249,38 +249,34 @@ hr {
 #erinwright {
   background-image: url("../images/erinwright.jpg");
   background-size: cover;
-  /*min-height: 40vh;
-  min-width: 20vw;*/
+  min-height: 40vh;
+  min-width: 20vw;
 
 }
 
 #lineabody {
   background-image: url("../images/lineabody.jpg");
   background-size: cover;
-  /*min-height: 40vh;
-  min-width: 20vw;*/
+  min-height: 40vh;
+  min-width: 20vw;
 
 }
 
 #freebird {
   background-image: url("../images/freebird.jpg");
   background-size: cover;
-  /*min-height: 40vh;
-  min-width: 20vw;*/
+  min-height: 40vh;
+  min-width: 20vw;
 
 }
 #balmbeats {
   background-image: url("../images/balmbeats.jpg");
   background-size: cover;
-  /*min-height: 40vh;
-  min-width: 20vw;*/
+  min-height: 40vh;
+  min-width: 20vw;
 
 }
 
-.portfolio {
-  width: 300px;
-  height: 300px;
-}
 .about{
   max-width: 40vw;
   max-height: 40vh;
