@@ -219,7 +219,7 @@ hr {
 }
 .underline {
   border-bottom: 1px dotted rgb(255,105,180);
-  border-bottom-width: 7vw; 
+  border-bottom-width: 15px; 
 }
 
 /*BACKGROUND IMAGES*/
