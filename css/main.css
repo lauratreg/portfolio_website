@@ -60,7 +60,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: rgb(60,60,65);
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/white-diamond.png");
+    background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
 }
 
 h1, h2, h3, h4 {
@@ -139,11 +139,7 @@ header .fa {
 header, footer  {
   padding: 1vh 2%;
   text-align:center;
-}
-
-footer {
-  background-color: rgb(60,60,65);
-  color: white;
+  background-color: white;
 }
 
 hr {
