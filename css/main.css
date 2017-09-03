@@ -218,8 +218,7 @@ hr {
   letter-spacing: 1px;
 }
 .underline {
-  border-style: 1px dotted rgb(255,105,180);
-  border-bottom-width: 15px;
+  border-bottom: 1px dotted rgb(255,105,180);
 }
 
 
