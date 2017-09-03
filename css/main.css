@@ -217,7 +217,9 @@ hr {
   font-size: 3.0rem;
   letter-spacing: 1px;
 }
-
+.underline {
+  border-bottom: 1px solid rgb(255,105,180);
+}
 
 /*BACKGROUND IMAGES*/
 #intro-banner {
@@ -300,6 +302,10 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .feedpost a:hover {
+  color: rgb(255,105,180);
+}
+
+.feedpost h5:hover {
   color: rgb(255,105,180);
 }
 
