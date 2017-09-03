@@ -146,8 +146,8 @@ header, footer  {
   background-color: white;
 }
 
-footer {
-  font-size: 0.5rem;
+header{
+
 }
 hr {
   border: 3px double #4DA1A9;
@@ -191,7 +191,6 @@ hr {
 
 }
 .button:hover {
-  transition-delay: 1s;
   border: 1px solid #4DA1A9;
   color: #4DA1A9;
 }
@@ -227,7 +226,7 @@ hr {
 }
 .underline {
   border-bottom: 2px dotted #4DA1A9;
-  border-width: inherit;
+  border-bottom-width: inherit;
 }
 
 .quote .fa {
