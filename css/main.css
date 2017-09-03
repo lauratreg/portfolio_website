@@ -59,6 +59,8 @@ li      { margin-bottom: 0.5rem; }
 body {
     font-family: 'Quicksand', sans-serif;
     color: rgb(60,60,65);
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/white-diamond.png");
 }
 
 h1, h2, h3, h4 {
@@ -220,6 +222,8 @@ hr {
 .underline {
   border-bottom: 1px dotted rgb(255,105,180);
 }
+
+
 
 
 /*BACKGROUND IMAGES*/
