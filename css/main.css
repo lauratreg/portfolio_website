@@ -36,7 +36,7 @@ img {max-width: 100%;}
 
 .left-text        { text-align: left; }
 .centered-text, .center-text     { text-align: center; }
-.right-text     { text-align: right; font-weight: bolder;}
+.right-text     { text-align: right; font-weight: bolder; text-decoration: underline;}
 
 .left {
   align-items: left;
@@ -104,6 +104,10 @@ li  { font-size: 1.1rem; }
   padding: 0;
   text-transform: uppercase;
 }
+
+.color {
+  color: #4DA1A9;
+}
 /* Padding & Margin */
 
 section{
@@ -116,6 +120,11 @@ padding: 5vh 5%;
   max-width: 30vw;
   max-height: 30vw;
   margin: auto;
+}
+
+a:hover {
+color: #4DA1A9;
+font-weight: bold;
 }
 /* Other universal styles */
 
