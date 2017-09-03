@@ -80,14 +80,14 @@ featured-image_path: images/whitedesk.jpg
 
           <h5> {{post.title}} </h5>
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
-          <p> {{post.excerpt | truncate:200 }} </p>
+          <p> {{post.excerpt | truncate:150 }} </p>
         </a>
 
       </div>
     {% endfor %}
 </div>
-<a class="button" href="/blog.html">More from the blog</a>
 </div>
+<a class="button" href="/blog.html">More Posts</a>
 
 <div class="col-6 centered">
   <h2 class="underline">Latest Jams</h2>
