@@ -67,7 +67,7 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
 }
 
-h2, h3, h4, h5{
+h2, h3, h4{
   text-transform: uppercase;
   color: rgb(60,60,65);
   letter-spacing: 1px;
@@ -162,7 +162,10 @@ header, footer  {
   background-color: white;
 }
 
-header{
+footer{
+  background-color: rgb(60,60,65);
+  color:white;
+  font-size: 1.0rem;
 
 }
 hr {
