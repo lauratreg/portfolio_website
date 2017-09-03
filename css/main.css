@@ -178,10 +178,12 @@ hr {
   display: inline-block;
   text-decoration: none;
   color: rgb(60,60,65);
+  text-transform: uppercase;
 
 }
 .button:hover {
   transition-delay: 1s;
+  border: 1px dotted rgb(60,60,65);
 }
 .relative{
   position:relative;
