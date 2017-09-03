@@ -252,6 +252,7 @@ hr.style1 {
   padding: 5vh;
   letter-spacing: 2px;
   font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.8rem;
 }
 
 
@@ -329,6 +330,16 @@ text-decoration: none;
   color:rgb(60,60,65);
   text-decoration: none;
   text-transform: none;
+}
+
+.feedpost .tagline {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #4DA1A9;
+    padding: 0;
+    text-transform: uppercase;
+    margin-left: 200px;
 }
 .feedpost h1{
   color: rgb(60,60,65);
