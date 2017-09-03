@@ -36,7 +36,7 @@ img {max-width: 100%;}
 
 .left-text        { text-align: left; }
 .centered-text, .center-text     { text-align: center; }
-.right-text     { text-align: right; }
+.right-text     { text-align: right; font-weight: bolder;}
 
 .left {
   align-items: left;
@@ -92,6 +92,7 @@ li  { font-size: 1.1rem; }
   color: #4DA1A9;
   padding: 0;
   text-transform: uppercase;
+  margin-left: 200px;
 }
 tagline .fa {
   font-size: 2.0rem;
@@ -156,7 +157,7 @@ hr {
 hr.style1 {
   border: none;
   border-bottom: 2px dotted #4DA1A9;
-  width: 200px;
+  width: 180px;
   margin: 0;
   margin-bottom: 1rem;
 }
