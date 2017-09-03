@@ -94,7 +94,9 @@ li  { font-size: 1.1rem; }
   padding: 0;
   text-transform: uppercase;
 }
-
+tagline .fa {
+  font-size: 2.0rem;
+}
 /* Padding & Margin */
 
 section{
@@ -146,7 +148,7 @@ header, footer  {
 
 
 hr {
-  color: 3px dotted #4DA1A9;
+  border-bottom: 3px double #4DA1A9;
 }
 .nav-menu .fa{
   font-size: 2.0rem;
@@ -222,7 +224,8 @@ hr {
   font-family: 'Shadows Into Light Two', cursive;
 }
 .underline {
-  border-bottom: 1px dotted #4DA1A9;
+  border-bottom: 2px dotted #4DA1A9;
+  border-width: inherit;
 }
 
 
