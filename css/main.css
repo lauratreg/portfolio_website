@@ -148,7 +148,7 @@ header, footer  {
 
 
 hr {
-  border-bottom: 3px double #4DA1A9;
+  border: 3px double #4DA1A9;
 }
 .nav-menu .fa{
   font-size: 2.0rem;
@@ -190,7 +190,8 @@ hr {
 }
 .button:hover {
   transition-delay: 1s;
-  border: 1px dotted rgb(60,60,65);
+  border: 1px solid #4DA1A9;
+  color: #4DA1A9;
 }
 .relative{
   position:relative;
@@ -235,6 +236,8 @@ hr {
 #intro-banner {
   background-image: url("../images/mess.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: 0 -40px;
   min-height: 80vh;
   padding: 5vh;
@@ -411,7 +414,7 @@ li      { margin-bottom: 0.5rem; }
     display: block;
   }
 
-  header nav a {
+header nav a {
     display: block;
   }
 .right-pull{
@@ -422,6 +425,10 @@ li      { margin-bottom: 0.5rem; }
 }
 h1, h2, h3 {
   font-size: 2.0rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
   .mob-flip {
