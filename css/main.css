@@ -142,6 +142,10 @@ header, footer  {
   background-color: white;
 }
 
+.home {
+  color: rgb(255,105,180);
+}
+
 hr {
   color: 3px dotted rgb(255,105,180);
 }
