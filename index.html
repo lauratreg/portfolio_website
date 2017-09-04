@@ -21,6 +21,8 @@ featured-image_path: images/whitedesk.jpg
     <p>
 <!-- Welcome a digital glimpse of my life. It's always exciting when you add a dot com behind your name. Also, I want to this to show up on Google instead of my ski-racing times from when I was 8 or my high school cheerleading photos. Here is a place where you can find my blog, porfolio,   I've been living in Asia for the past year. I've done everything from teach english, to learn how to code, to teach indoor cycling in Bangkok - mostly I've spent the last year traveling. My current goal is to travel to 30 countries before I turn 30 - I have 2 years to touchdown in 6 countries! Next up are Myanmar, Malaysia, and Singapore. -->
 
+<!-- Hello! Welcome to my little corner of the internet.  -->
+
     BIO GOES HERE
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -37,8 +39,8 @@ featured-image_path: images/whitedesk.jpg
   </section>
 
   <!-- TAGLINE SECTIONS -->
-  <section class="quote featured center-text">
-    <p>
+  <section class="featured">
+    <p class="quote">
       <i class="fa fa-quote-left" aria-hidden="true"></i>
       Being happy is my goal, greatness is my vision
       <i class="fa fa-quote-right" aria-hidden="true"></i><br />
@@ -46,33 +48,6 @@ featured-image_path: images/whitedesk.jpg
     </p>
   </section>
 
- <!-- BLOG SECTION -->
-    <!-- <section class="container feedpost">
-      <h2 class="centered"> This just in... </h2>
-      <div class="grid blog-loop feedpost">
-        {% for post in site.posts limit:2 %}
-          <div class="col-6_sm-12 feedpost">
-              <a href="{{post.url}}">
-                <img src="{{post.image_path}}">
-                <p class="post-meta">{{post.date | date_to_string }}</p><h5> {{post.title}} </h5>
-              </a>
-            </div>
-          {% endfor %}
-      </div>
-      <div class="center-text">
-        <a class="button" href="/blog.html">Check it out</a>
-      </div>
-    </section> -->
-
-<!-- THIS IS THE  RANDOM PROJECTS SECTION ---->
-
-<!-- <div class="col-6">
-  <h2>Write Something Here</h2>
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisl nulla, pulvinar a dui id, rutrum sollicitudin leo. Nam a leo feugiat, facilisis risus sit amet, rhoncus est. In sed vehicula nulla, a facilisis urna. Vestibulum ac ornare mauris. Quisque arcu ligula, aliquam at rutrum a, rutrum eu est. Donec sodales elementum finibus. Quisque accumsan venenatis arcu a feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut et efficitur quam. Vestibulum id est rutrum, placerat nibh eget, sollicitudin neque. Vestibulum rhoncus risus ac urna fermentum porttitor. Nunc sed ullamcorper diam, et consequat quam. Praesent convallis eget orci sagittis feugiat.
-
-      Fusce congue ultrices mauris vitae euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus urna non imperdiet scelerisque. Sed fermentum massa a enim dictum, ac pharetra nisi egestas. Nam et eros ut quam auctor sagittis a cursus ex. In fringilla libero nisl, id bibendum est auctor sed. Nulla pharetra imperdiet cursus. Mauris suscipit malesuada elit in dignissim. Morbi aliquet augue ut est finibus molestie.
-</div> -->
 
 <!-- RANDOMNESS -->
 <section class="grid-centered">
@@ -86,13 +61,13 @@ featured-image_path: images/whitedesk.jpg
 
           <h5> {{post.title}} </h5>
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
-          <p> {{post.excerpt | truncate:150 }} </p>
+          <p class="mob-hide"> {{post.excerpt | truncate:150 }} </p>
         </a>
 
       </div>
     {% endfor %}
 </div>
-<p class="right-text"><a href="/blog.html">VIEW BLOG</a></p>
+<p class="right-text blog-button"><a href="/blog.html">VIEW BLOG</a></p>
 </div>
 
 
@@ -100,43 +75,10 @@ featured-image_path: images/whitedesk.jpg
   <h2>Latest Jams</h2>
   <hr class="style1" />
   <br />
-  <p class="centered">
-<iframe src="https://open.spotify.com/embed/user/1211322207/playlist/04MNngA5TfqrbGS6RxXvLa" width="580" height="450" frameborder="0" allowtransparency="true"></iframe>
+  <p class="centered spotify">
+<iframe src="https://open.spotify.com/embed/user/1211322207/playlist/04MNngA5TfqrbGS6RxXvLa" width="580" height="450" frameborder="0" allowtransparency="true"></iframe></p>
 </div>
 </section>
-
-<!-- BOX IMAGES PROJECTS  -->
-
-<!--- <section class="no-padding featured">
-  <div class="grid-equalHeight">
-    <div class="col-4_sm-12-middle ">
-      <h3> Blog </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
-        <a target="blank"class="button center-text" href="/blog.html">Latest Posts</a>
-    </div>
-    <div class="col-4_sm-12 box-img">
-      <!-ADD BACKGROUND IMAGE -->
-    <!-- </div>
-    <div class="col-4_sm-12-middle">
-      <h3> Nerd Alert</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
-      <a target="blank"class="button center-text" href="/portfolio">Portfolio</a>
-    </div>
-  </div> <! end grid -->
-  <!-- <div class="grid-equalHeight">
-    <div class="col box-img"> -->
-      <!-- ADD BACKGROUND IMAGE -->
-    <!-- </div> -->
-    <!-- <div class="col-4_sm-12-middle">
-      <h3> Ride With Me </h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
-      <a target="blank"class="button center-text" href="#">Book Your Bike</a>
-    </div>
-    <div class="col-4_sm-12 box-img"> -->
-      <!-- ADD BACKGROUND IMAGE -->
-    <!-- </div>
-  </div> <!-end grid -->
-<!-- </section>  -->
 
 
 <!-- Contact Section -->
