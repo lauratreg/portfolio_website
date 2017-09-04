@@ -120,9 +120,11 @@ padding: 5vh 5%;
   max-height: 30vw;
   margin: auto;
 }
-
+a {
+  color: #4DA1A9;
+}
 a:hover {
-color: #4DA1A9;
+color: black;
 font-weight: bold;
 }
 /* Other universal styles */
