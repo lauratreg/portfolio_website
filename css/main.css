@@ -283,8 +283,8 @@ hr.style1 {
   min-width: 25vw;
 }
 
-#lineabody:hover{
-  background-image: url("../images/lineabodyworks.jpg");
+#lineabody:hover {
+  background-image: url("../images/linebodyworks.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 45vh;
