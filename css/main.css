@@ -244,7 +244,7 @@ hr.style1 {
   color:white;
 }
 .quote {
-  padding: 5vh;
+  padding: 3vh;
   letter-spacing: 2px;
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 1.3rem;
@@ -267,36 +267,36 @@ hr.style1 {
   padding: 5vh;
 }
 
-#erinwright {
+/*#erinwright {
   background-image: url("../images/erinwright.jpg");
   background-size: cover;
   min-height: 40vh;
-  min-width: 20vw;
+  min-width: 20vw;*/
 
 }
 
 #lineabody {
-  background-image: url("../images/lineabody.jpg");
+  background-image: url("../images/lineabodynew.png");
   background-size: cover;
   min-height: 40vh;
   min-width: 20vw;
 
 }
 
-#freebird {
+/*#freebird {
   background-image: url("../images/freebird.jpg");
   background-size: cover;
   min-height: 40vh;
   min-width: 20vw;
 
-}
-#balmbeats {
+}*/
+/*#balmbeats {
   background-image: url("../images/balmbeats.jpg");
   background-size: cover;
   min-height: 40vh;
   min-width: 20vw;
 
-}
+}*/
 
 .about{
   max-width: 40vw;
@@ -407,6 +407,9 @@ li      { margin-bottom: 0.5rem; }
     transform: rotateZ(-45deg);
   }
 
+.blog-button {
+  text-decoration: underline;
+}
 
 
 
