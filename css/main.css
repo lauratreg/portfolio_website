@@ -247,7 +247,7 @@ hr.style1 {
   padding: 5vh;
   letter-spacing: 2px;
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 
@@ -488,7 +488,6 @@ p {
     background-image: url("../images/mess.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     min-height: 80vh;
     padding: 5vh;
   }
