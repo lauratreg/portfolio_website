@@ -120,11 +120,9 @@ padding: 5vh 5%;
   max-height: 30vw;
   margin: auto;
 }
-a {
-  color: #4DA1A9;
-}
+
 a:hover {
-color: black;
+color:  #4DA1A9;
 font-weight: bold;
 }
 /* Other universal styles */
@@ -279,10 +277,18 @@ hr.style1 {
 
 #lineabody {
   background-image: url("../images/lineabodynew.png");
-  background-size: cover;
-  min-height: 40vh;
-  min-width: 20vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 45vh;
+  min-width: 25vw;
+}
 
+#lineabody:hover{
+  background-image: url("../images/lineabody.jg\pg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 45vh;
+  min-width: 25vw;
 }
 
 /*#freebird {
@@ -300,19 +306,7 @@ hr.style1 {
 
 }*/
 
-.about{
-  max-width: 40vw;
-  max-height: 40vh;
-  display: block;
-}
 
-.box-img { /* This can be used for any col or div that you want filled with a background image. */
-  background-color: grey; /* this is a fallback incase the image doesn't load */
-  background-image: url('/images/fuckyeah.jpg'); /* if you are adding a unique image to every one you can remove this */
-  background-size: cover;
-  background-position: center;
-  min-height: 20vh;
-}
 
 /* BLOG STYLES*/
 .feedpost h3{
