@@ -4,12 +4,10 @@ title: Shop
 ---
 
 <section class="tall feedpost">
-<div><img class="full-width" src="{{page.image_path}}"></div>
-<br><br>
   <div class="post-body feedpost">
       <h1> {{page.title}} </h1>
       <p class="post-meta">{{page.date | date_to_string }} | Written by {{page.author}}</p>
-      
+      <img class="full-width" src="{{page.image_path}}">
 
       {{content}}
 
